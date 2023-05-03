@@ -1,0 +1,24 @@
+body {
+    background-color: #dedfe0b5;
+}
+
+#card-container {
+    display: flex;
+    margin-top: 100px;
+
+    text-align: center;
+
+    .card-cover {
+        width: 100%;
+        height: 300px;
+
+        object-fit: cover;
+        object-position: 50% 5%;
+    }
+
+    .card-title {
+        margin-bottom: 30px;
+    }
+
+}
+

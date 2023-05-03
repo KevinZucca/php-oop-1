@@ -9,8 +9,9 @@ class Movie {
     public $duration;
     public $genres;
     public $audience;
+    public $img;
 
-    function __construct(string $title, string $director, int $year, string $actors, string $duration, array $genres, string $audience){
+    function __construct(string $title, string $director, int $year, string $actors, string $duration, array $genres, string $audience, string $img){
         $this->title = $title;
         $this->director = $director;
         $this->year = $year;
@@ -18,6 +19,7 @@ class Movie {
         $this->duration = $duration;
         $this->genres = $genres;
         $this->audience = $audience;
+        $this->img = $img;
     }
 
     public function setAudience($genres){
